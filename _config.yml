@@ -1,0 +1,32 @@
+#Theme theme: jekyll-theme-cayman
+
+# Site title
+title: CardTrick
+description: CardTrick
+
+#permalinks
+permalink: /:title/
+
+# Handling Reading
+safe: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+
+# Use this for production
+sass:
+    style: compressed
+exclude: [ README.md, LICENSE]
+
+
+# Collection Management
+collections_dir: users
+collections:
+  user1:
+    output: true
+    permalink: /:collection/:name
+  pgqgcycj:
+    output: true
+    permalink: /:collection/:name
+  ajsnsjsk:
+    output: true
+    permalink: /:collection/:name

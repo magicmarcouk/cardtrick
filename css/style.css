@@ -1,0 +1,167 @@
+
+
+/*
+ * Main Body
+ */
+body
+{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    padding-top: 70px;
+}
+
+/*
+ * Horizontal Line
+ */
+hr
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color:white;
+}
+
+/*
+ * Container
+ */
+.container
+{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.container p
+{
+    margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.container h1
+{
+    margin-top: 50px;
+}
+
+/**
+ * Button Style
+ */
+.btn, .btn-primary, .btn-primary:active, .btn-primary:visited
+{
+    background: #222;
+    border-color:#222;
+    color:#9c9c9c;
+}
+
+.btn-primary:hover
+{
+    background: #222;
+    border-color:#222;
+    color:#fff;
+}
+
+/*
+ * Bio
+ */
+#bio
+{
+  overflow:hidden;
+}
+
+#bio div
+{
+   min-height: 200px;
+   padding: 10px;
+}
+
+#bio_image
+{
+    vertical-align:middle;
+    text-align:center;
+    float:left;
+    width:auto;
+    margin: auto;
+    display: block;
+    min-width 400px;
+}
+#bio_text
+{
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+}
+
+.fab
+{
+    padding: 20px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+tr td
+{
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.8;
+}
+
+/* Add spacing between social media icons */
+#social-media li
+{
+    margin: 0 10px 0 0;
+}
+
+/*
+ * Sizing of Google maps
+ */
+.gmap_canvas
+{
+    position: relative;
+    padding-bottom: 50%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.gmap_canvas iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+footer
+{
+    min-height:50px;
+}
+
+/*
+ * Responsive CSS
+ */
+@media screen and (max-width: 600px)
+{
+   #bio_image
+   {
+    float: none;
+    width:auto;
+    min-width 400px;
+    border:0;
+    margin: auto;
+    display: block;
+  }
+}
